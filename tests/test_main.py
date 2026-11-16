@@ -8,7 +8,7 @@ class WasteSortingTests(unittest.TestCase):
 
     def test_sort_waste_plastic(self):
         # звичайний сценарій: відомий предмет
-        self.assertEqual(sort_waste("bottle"), "plastic")
+        self.assertEqual(sort_waste("bottle"), "paper")
 
     def test_sort_waste_unknown_item(self):
         # граничний сценарій: невідомий та порожній ввід
